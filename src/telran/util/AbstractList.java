@@ -1,13 +1,9 @@
 package telran.util;
 
-
-
 public abstract class AbstractList<T> implements List<T> {
 
 	protected int size;
 	
-
-
 	@Override
 	public int size() {
 		
